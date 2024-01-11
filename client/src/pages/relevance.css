@@ -1,0 +1,29 @@
+.bar{
+    width: 49vw;
+}
+
+.charts-intensity > .upper > .banner{
+    width: fit-content;
+}
+
+.lower{
+    display: flex;
+    flex-direction: row;
+}
+
+.scatter{
+    background: rgb(207, 203, 203);
+}
+
+.line-chart{
+    padding: 10px;
+    border: 1px solid grey;
+    justify-content: center;
+    display: flex;
+    width: 48vw;
+}
+@media screen and (max-width: 992px) {
+    .charts-intensity > .upper > .banner{
+        width: 66vw;
+    }
+}

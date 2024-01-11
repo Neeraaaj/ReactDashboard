@@ -1,0 +1,79 @@
+.left-side{
+    width: 40vw;
+    margin: 10px;
+}
+
+.polar{
+    height: fit-content;
+}
+
+.right-side{
+    width: 40vw;
+    border: 1px solid grey;
+    border-radius: 25px;
+    background:rgb(29, 101, 255);
+}
+
+.right-side > .upper-box{
+    width: 38vw;
+    height: 50vh;
+    border: 1px solid rgb(0, 0, 0);
+    margin-top: 5%;
+    margin-left: 2%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    background: white;
+}
+
+.right-side > .upper-box > h1{
+    margin-top: 15%;
+    margin-left: 2%;
+}
+
+.right-side > .lower-box{
+    border: 1px solid rgb(0, 0, 0);
+    margin-top: 5%;
+    margin-left: 2%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    background: white;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 260px 1fr 1fr 1fr;
+    grid-template-rows: 0.2fr 3fr;
+    grid-template-areas: 'sidebar header header header'
+    'sidebar main main main';
+    height: 100vh;
+}
+@media screen and (max-width: 992px) {
+    .grid-container{
+        display: flex;
+        flex-direction: column;
+    }  
+
+    .left-side{
+        width: 95vw;
+    }
+
+    .right-side{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .right-side > .upper-box{
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .right-side > .lower-box{
+        height: 346px;
+        width: 599px;
+        margin-left: 5%;
+    }
+}

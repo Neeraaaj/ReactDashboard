@@ -1,0 +1,37 @@
+.count-inten{
+    width: fit-content;
+    height: 50vh;
+    margin-left: 120%;
+    box-shadow: 1px 1px 4px 2px rgb(168, 168, 168);
+    border-radius: 42px;
+    display: flex;
+}
+
+.card-count{
+    width:30vw;
+    height: 20vh;
+    margin: 10px;
+    border-radius: 20px;
+    background: #5E3FCD;
+    padding: 10px;
+    color: white;
+    box-shadow: 1px 1px 4px 2px rgb(157, 157, 157);
+}
+
+.count-rele{
+    width: 50vw;
+    flex-direction: column;
+    margin-left: -76vw;
+    margin-top: 30vh;
+    box-shadow: 1px 1px 4px 2px rgb(166, 166, 166);
+    border-radius: 20px;
+}
+
+.globe{
+    margin-left: 35vw;
+    margin-top: -20vw;
+    mix-blend-mode: multiply;
+    width: 175px;
+    height: 175px;
+    box-shadow: 1px 1px 4px 2px grey;
+}

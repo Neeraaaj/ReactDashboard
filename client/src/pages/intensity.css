@@ -1,0 +1,93 @@
+.line{
+    padding: 15px;
+    margin: 15px;
+    border-radius: 35px;
+    width: max-content;
+}
+
+.polar{
+    padding: 15px;
+    margin: 15px;
+    border-radius: 35px;
+    border: 1px solid grey;
+}
+
+.upper{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+    justify-content: space-between;
+}
+
+.upper > .banner{
+    display: flex;
+    flex-direction: row;
+    background: #7165EC;
+    padding: 45px;
+    border-radius: 35px;
+    border: 1px solid white;
+    margin: 5px;
+}
+
+img{
+    width:90px;
+    height: 90px;
+    border-radius: 100px;
+}
+
+.upper > .banner > .text{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: larger;
+    color: white;
+    margin: 15px;
+}
+
+.dough{
+    border: 1px solid grey;
+    border-radius: 45px;
+    padding: 15px;
+    width: 450px;
+    height: 400px;
+}
+
+.charts-intensity{
+    display: flex;
+    flex-direction: column;
+}
+.bottom{
+    display: flex;
+    flex-direction: row;
+}
+
+.bar{
+    width: 97%;
+    border: 1px solid grey;
+    border-radius: 42px;
+}
+
+@media screen and (max-width: 992px) {
+    .upper{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .upper > .banner{
+        width: fit-content;
+    }
+
+    .upper > .bar{
+        width: 85%;
+    }
+
+    .bottom{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bottom > .dough{
+        width: fit-content;
+        margin: 15px;
+    }
+}
